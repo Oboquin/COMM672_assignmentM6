@@ -1,0 +1,222 @@
+
+
+a {
+    color: #d38e48;
+}
+
+a:hover {
+    color: #ac5e10;
+}
+
+a:active {
+    color: #ac5e10;
+}
+
+p {
+    margin: 1px;
+}
+
+/* Navigation Section */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #ac5e10;
+}
+
+.button {
+    background-color: #e6a563;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+/* Hero Section */
+
+.hero-section {
+    background-color: #FFCF83;
+    display: flex;
+    /* justify-content:space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding: 50px 150px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+
+/* Feature Section */
+
+.featurescontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.listedfeatures {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.featurebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 3px;
+    width: 300px;
+    gap: 10px;
+}
+
+/* Testimonial Section */
+
+.testimonialcontainer {
+    background-color: #222e50;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.testimonialwrapper{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.testimonialbox {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:20px;
+    width: 300px;
+    
+
+}
+
+/* Team Section */
+
+.ourteamcontainer { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.listedteam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.teambox {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    width: 150px;
+    margin: 0px;
+}
+
+.teamtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.teamtitle p:first-child {
+    font-weight: bold;
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.social-icons {
+    padding-bottom: 10px; 
+}
+
+
